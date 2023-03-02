@@ -30,16 +30,16 @@
     if (globalActions) {
         GM_addStyle(`
             .linkToClient {
-                margin: 0 5px 0 8px;
-                padding: 0 5px;
-                line-height: 24px;
-                color: #b8b6b4;
-                background-color: #262625;
-                display: inline-block;
+                margin-right: 1px;
+                line-height: 23px;
+                background-color: rgba( 103, 193, 245, 0.2 );
+                color: #dedede;
+                font-size: 12px;
+                padding: 4px 14px 6px 14px;
+                font-weight: normal;
             }
             .linkToClient:hover {
                 color: #ffffff;
-                background-color: #575451;
             }
         `)
         const linkBtn = document.createElement('a');
