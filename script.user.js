@@ -30,13 +30,16 @@
     if (globalActions) {
         GM_addStyle(`
             .linkToClient {
-                margin-right: 1px;
-                line-height: 23px;
-                background-color: rgba( 103, 193, 245, 0.2 );
-                color: #dedede;
-                font-size: 12px;
-                padding: 4px 14px 6px 14px;
+                display: inline-block;
+                text-decoration: none;
+                color: #DEDEDE;
+                line-height: 24px;
                 font-weight: normal;
+                padding: 0px 9px 0px 35px;
+                background-color: rgba( 103, 193, 245, 0.2 );
+                background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_linux.png);
+                background-repeat: no-repeat;
+                background-position: 10px 2px;
             }
             .linkToClient:hover {
                 color: #ffffff;
