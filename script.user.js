@@ -30,16 +30,19 @@
     if (globalActions) {
         GM_addStyle(`
             .linkToClient {
-                margin: 0 5px 0 8px;
-                padding: 0 5px;
-                line-height: 24px;
-                color: #b8b6b4;
-                background-color: #262625;
                 display: inline-block;
+                text-decoration: none;
+                color: #DEDEDE;
+                line-height: 24px;
+                font-weight: normal;
+                padding: 0px 9px 0px 35px;
+                background-color: rgba( 103, 193, 245, 0.2 );
+                background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_linux.png);
+                background-repeat: no-repeat;
+                background-position: 10px 2px;
             }
             .linkToClient:hover {
                 color: #ffffff;
-                background-color: #575451;
             }
         `)
         const linkBtn = document.createElement('a');
